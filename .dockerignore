@@ -1,0 +1,15 @@
+Dockerfile
+docker-compose.yml
+.dockerignore
+.git
+
+log/*
+tmp/*
+
+db/*.sqlite3
+db/*.sqlite3-journal
+db/*.sqlite3-*
+
+.bundle
+vendor/bundle
+node_modules
